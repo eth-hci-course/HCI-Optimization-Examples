@@ -1,6 +1,8 @@
 import numpy as np
-import math
 import re
+import math
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 
 
 # Returns Euclidean distance between two element positions in a grid layout
@@ -66,3 +68,58 @@ def fittslawcost(i, j, D):
     else:
         mt = a + b * math.log(D / W + 1, 2)
     return mt
+
+
+def plot_keyboard(mapping, columns):
+    """
+    Plots the keyboard
+    mapping: dict from letters to keynumber
+    columns: the number of columns of the keyboard
+    """
+
+    rows = int(math.ceil(len(mapping) / float(columns)))
+
+    fig, ax = plt.subplots(1)
+    fig.set_size_inches(3, 3)
+
+    # box dimensions
+    key_height = 4
+    key_width = 4
+
+    # keyboard specifics
+    row_distance = 0.5
+    column_distance = 0.5
+
+    for row in range(0, rows):
+        for column in range(0, columns):
+            x = (column * key_width) + column * column_distance
+            y = (row * key_height) + row * row_distance
+
+            # print button
+            ax.add_patch(patches.Rectangle((x, y), key_width, key_height, fill=False))
+
+    for l, slot in mapping.items():
+        row = math.floor(slot / columns)
+        column = slot % columns
+
+        x = (column * key_width) + column * column_distance + key_width / float(2)
+        y = (row * key_height) + row * row_distance + key_height / float(2)
+        # print label
+        l = l.capitalize()
+        ax.text(
+            x,
+            y,
+            l,
+            horizontalalignment="center",
+            verticalalignment="center",
+            fontsize=18,
+            color="k",
+        )
+
+    max_x = (columns - 1) * key_width + (columns - 1) * column_distance + key_width + 1
+    max_y = (rows - 1) * key_height + (rows - 1) * row_distance + key_height + 1
+
+    plt.axis("off")
+    ax.set_xlim([-1, max(max_x, max_y)])
+    ax.set_ylim([-1, max(max_x, max_y)])
+    plt.show()
