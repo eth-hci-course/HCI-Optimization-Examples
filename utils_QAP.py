@@ -26,7 +26,7 @@ def get_bigram_frequency(letters):
     Returns a map from bigrams to frequencies
     """
     bigramdist = {}
-    f = open("resources/stylus.csv", encoding="utf8")
+    f = open("resources/bigram.csv", encoding="utf8")
     lines = f.readlines()
     for line in lines:
         if line[4] == '"':

@@ -1,5 +1,5 @@
 # from gurobipy import *
-import utils_anna
+import utils_QAP
 import gurobipy
 
 """'
@@ -72,16 +72,16 @@ columns = 3
 
 # obtain cost factors: movement time and bigram frequencies
 movement_time = {
-    (s1, s2): utils_anna.fittslawcost(s1, s2, utils_anna.distance(columns, s1, s2))
+    (s1, s2): utils_QAP.fittslawcost(s1, s2, utils_QAP.distance(columns, s1, s2))
     for s1 in keyslots
     for s2 in keyslots
 }
 
-bigram_frequency = utils_anna.get_bigram_frequency(characters)
+bigram_frequency = utils_QAP.get_bigram_frequency(characters)
 
 # solve the problem
 mapping, objective = solve(
     characters, keyslots, bigram_frequency, movement_time, columns
 )
 
-print("The average WPM of the winning keyboard is %.2f" % utils_anna.wpm(objective))
+print("The average WPM of the winning keyboard is %.2f" % utils_QAP.wpm(objective))
