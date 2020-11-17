@@ -1,3 +1,6 @@
 .flake8
 .pre-commit-config.yaml
 /.idea/
+/__pycache__/
+presolve.lp
+.*.ipynb
