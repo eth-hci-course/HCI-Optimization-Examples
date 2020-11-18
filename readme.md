@@ -20,7 +20,12 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
 - Create project with its own virtual env. in the IDE
-- Run ```pip install -r requirements.txt``` in your ide
+- Install required packages: numpy, scipy, gurobipy, matplotlib
+    
+    ```pip install numpy```
+    ```pip install scipy```
+    ```pip install gurobipy```
+    ```pip install matplotlib```
+    
 - Only tested on windows, I doubt anything should break on other systems. 
 
-# 
