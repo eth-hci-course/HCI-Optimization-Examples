@@ -1,12 +1,12 @@
 This is a collection of optimization techniques used in HCI UI optimization. We mainly focused on discrete problems. 
 We have random and exhaustive search for a 1D menu. An evolutionary algorithm for determining which webcam in a video
 call should be shown. And a quadratic assignment problem solved through integer programming for keyboard optimization.
-Each file has something called: solve/solver or similar. This ususally contains the core part of the algortihm. 
+Each file has a function called: solve/solver or similar. This usually contains the core part of the algorithm. 
 
 This repo is still a work in progress. Over time perhaps more solvers will be added and code will be improved. 
 
 **This is not directly applicable to your projects. 
-It is meant as inspiration and help for your own specific implementations**
+It is meant as inspiration and help for your own specific implementations.**
 
 For a lot of these solvers you can probably find libraries who do most of the things for you:
 - e.g. an advanced implementation of an evolutionary strategy: https://pypi.org/project/cma/
