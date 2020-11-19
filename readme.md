@@ -15,8 +15,11 @@ You can use those for your projects. This repo is more to give you an idea of ho
 
 Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
-# Installation
+
 - Install Python 3.8
+
+# OPTION 1: Installation
+
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
 - git pull this repo
@@ -30,4 +33,16 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install matplotlib```
 - it probably asks you to install juypter and run it
 - In gneral to run it press any green arrow you see.
+
+# OPTION 1: Installation
+- Open Powershell in admin mode
+- Install jupyter lab: ```pip install jupyterlab``` https://jupyter.org/install
+- ```git pull``` this repo and navigate in it
+- Install required packages: numpy, scipy, gurobipy, matplotlib
+    ```pip install numpy```
+    ```pip install scipy```
+    ```pip install -i https://pypi.gurobi.com gurobipy```
+    ```pip install matplotlib```
+- run the command ```jupyter lab```
+- then press the play button on the file you want to run
 
