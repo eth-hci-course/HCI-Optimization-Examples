@@ -18,11 +18,11 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 
 
-# OPTION 1: Installation with Pycharm
+# OPTION 1: Installation with PyCharm
 - Install Python 3.8
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
-- git pull this repo
+- git clone this repo
 - open it as project in pycharm
 - create venv
 - Install required packages: numpy, scipy, gurobipy, matplotlib
@@ -32,9 +32,9 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
 - it probably asks you to install juypter and run it
-- In gneral to run it press any green arrow you see.
+- In general to run it press any green arrow you see.
 
-# OPTION 2: Installation with Jupter Lab
+# OPTION 2: Installation with Jupyter Lab
 - Install Python 3.8
 - Open PowerShell in admin mode (or any other shell of your OS)
 - Install jupyter lab: ```pip install jupyterlab``` https://jupyter.org/install
