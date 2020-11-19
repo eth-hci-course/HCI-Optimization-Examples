@@ -16,10 +16,10 @@ You can use those for your projects. This repo is more to give you an idea of ho
 Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 
+
+
+# OPTION 1: Installation with Pycharm
 - Install Python 3.8
-
-# OPTION 1: Installation
-
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
 - git pull this repo
@@ -34,7 +34,8 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - it probably asks you to install juypter and run it
 - In gneral to run it press any green arrow you see.
 
-# OPTION 1: Installation
+# OPTION 2: Installation with Jupter Lab
+- Install Python 3.8
 - Open Powershell in admin mode
 - Install jupyter lab: ```pip install jupyterlab``` https://jupyter.org/install
 - ```git pull``` this repo and navigate in it
