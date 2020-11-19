@@ -16,15 +16,13 @@ You can use those for your projects. This repo is more to give you an idea of ho
 Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # Installation
-- Install Python 3.8
-- Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
-- Recommended IDE: https://www.jetbrains.com/pycharm/
-- Create project with its own virtual env. in the IDE
+- Install Python 3.8 (https://www.python.org/downloads/release/python-386/)
+- Install an IDE: https://www.jetbrains.com/pycharm/ and create project with its own virtual env. in the IDE
+OR Install Jupyter Lab (https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+- Install Gurobi: python -m pip install -i https://pypi.gurobi.com gurobipy (see https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
 - Install required packages: numpy, scipy, gurobipy, matplotlib
-    
     ```pip install numpy```
     ```pip install scipy```
-    ```pip install gurobipy```
     ```pip install matplotlib```
     
 - Only tested on windows, I doubt anything should break on other systems. 
