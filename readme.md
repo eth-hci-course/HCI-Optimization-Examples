@@ -16,6 +16,7 @@ You can use those for your projects. This repo is more to give you an idea of ho
 Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # Installation
+<<<<<<< HEAD
 - Install Python 3.8
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
@@ -30,5 +31,14 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install matplotlib```
 - it probably asks you to install juypter and run it
 - In gneral to run it press any green arrow you see.
+=======
+- Install Python 3.8 (https://www.python.org/downloads/release/python-386/)
+- Install Gurobi: ```python -m pip install -i https://pypi.gurobi.com gurobipy``` (more information https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
+- Install an IDE: https://www.jetbrains.com/pycharm/ and create project with its own virtual env. in the IDE
+- Install required packages: numpy, scipy, matplotlib
+    ```pip install numpy```
+    ```pip install scipy```
+    ```pip install matplotlib```
+>>>>>>> 5316d54a4d2c3956e531f683e24ad4bc974aa1ff
 - Only tested on windows, I doubt anything should break on other systems. 
 
