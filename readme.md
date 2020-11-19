@@ -17,11 +17,11 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # Installation
 - Install Python 3.8 (https://www.python.org/downloads/release/python-386/)
-- Install Gurobi: ```python -m pip install -i https://pypi.gurobi.com gurobipy``` (see https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
+- Install Gurobi: ```python -m pip install -i https://pypi.gurobi.com gurobipy``` (more information https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
+- Install an IDE: https://www.jetbrains.com/pycharm/ and create project with its own virtual env. in the IDE
 - Install required packages: numpy, scipy, matplotlib
     ```pip install numpy```
     ```pip install scipy```
     ```pip install matplotlib```
-- Install an IDE: https://www.jetbrains.com/pycharm/ and create project with its own virtual env. in the IDE
 - Only tested on windows, I doubt anything should break on other systems. 
 
