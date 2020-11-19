@@ -17,7 +17,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # Installation
 - Install Python 3.8 (https://www.python.org/downloads/release/python-386/)
-- Install Gurobi: python -m pip install -i https://pypi.gurobi.com gurobipy (see https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
+- Install Gurobi: ```python -m pip install -i https://pypi.gurobi.com gurobipy``` (see https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python-)
 - Install required packages: numpy, scipy, matplotlib
     ```pip install numpy```
     ```pip install scipy```
