@@ -44,6 +44,6 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install scipy```
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
-- run the command ```jupyter-lab``` and, within the left panel, open one of the ipynb example files
+- run the command ```jupyter-lab``` and, within the left panel, navigate to your cloned HCI-Optimization-Examples folder and open one of the ipynb example files
 - then press the play button
 
