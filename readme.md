@@ -31,7 +31,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # OPTION 2: Installation with PyCharm
 - Install Python 3.8
-- Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
+- [Optional] Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/ (professional edition, this is free for students, https://www.jetbrains.com/community/education/#students)
 - ```git clone git@github.com:eth-ait/HCI-Optimization-Examples.git```
 - Open the folder in pycharm as project
