@@ -36,14 +36,14 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 
 # OPTION 2: Installation with Jupter Lab
 - Install Python 3.8
-- Open Powershell in admin mode
+- Open PowerShell in admin mode (or any other shell of your OS)
 - Install jupyter lab: ```pip install jupyterlab``` https://jupyter.org/install
-- Download the repo or ```git clone``` this repo and navigate in it
+- Download the repo or ```git clone``` this repo and navigate in it using ```cd HCI-Optimization-Examples```
 - Install required packages: numpy, scipy, gurobipy, matplotlib
     ```pip install numpy```
     ```pip install scipy```
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
-- run the command ```jupyter -lab```
-- then press the play button on the file you want to run
+- run the command ```jupyter-lab``` and, within the left panel, open one of the ipynb example files
+- then press the play button
 
