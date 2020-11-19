@@ -34,7 +34,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/ (professional edition, this is free for students, https://www.jetbrains.com/community/education/#students)
 - ```git clone git@github.com:eth-ait/HCI-Optimization-Examples.git```
-- Open the folder in pycharm
+- Open the folder in pycharm as project
 - It will prompt you to make a virtual pip environment
 - Choose python 3.8
 - Install required packages: numpy, scipy, gurobipy, matplotlib (make sure the virtual environment is active)
@@ -44,7 +44,6 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
 - via settings > python interpreter
-- open it as project in pycharm
 - it probably asks you to install juypter and run it
 - Right click on the file name you would like to run, you should see a Run ... command available.
 
