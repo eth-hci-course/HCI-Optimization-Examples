@@ -38,12 +38,12 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - Install Python 3.8
 - Open Powershell in admin mode
 - Install jupyter lab: ```pip install jupyterlab``` https://jupyter.org/install
-- ```git pull``` this repo and navigate in it
+- Download the repo or ```git clone``` this repo and navigate in it
 - Install required packages: numpy, scipy, gurobipy, matplotlib
     ```pip install numpy```
     ```pip install scipy```
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
-- run the command ```jupyter lab```
+- run the command ```jupyter -lab```
 - then press the play button on the file you want to run
 
