@@ -19,13 +19,16 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - Install Python 3.8
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
-- Create project with its own virtual env. in the IDE
+- git pull this repo
+- open it as project in pycharm
+- create venv
 - Install required packages: numpy, scipy, gurobipy, matplotlib
     
     ```pip install numpy```
     ```pip install scipy```
-    ```pip install gurobipy```
+    ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
-    
+- it probably asks you to install juypter and run it
+- In gneral to run it press any green arrow you see.
 - Only tested on windows, I doubt anything should break on other systems. 
 
