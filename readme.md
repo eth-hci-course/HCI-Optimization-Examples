@@ -45,5 +45,3 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     
 - it probably asks you to install juypter and run it
 - In general to run it press any green arrow you see.
-
-
