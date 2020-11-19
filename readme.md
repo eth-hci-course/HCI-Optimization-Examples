@@ -21,7 +21,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 # OPTION 1: Installation with PyCharm
 - Install Python 3.8
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
-- Recommended IDE: https://www.jetbrains.com/pycharm/
+- Recommended IDE: https://www.jetbrains.com/pycharm/ (professional edition, this is free for students, https://www.jetbrains.com/community/education/#students)
 - ```git clone git@github.com:eth-ait/HCI-Optimization-Examples.git```
 - open it as project in pycharm
 - create venv
@@ -34,6 +34,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     
 - it probably asks you to install juypter and run it
 - In general to run it press any green arrow you see.
+
 
 # OPTION 2: Installation with Jupyter Lab
 - Install Python 3.8
