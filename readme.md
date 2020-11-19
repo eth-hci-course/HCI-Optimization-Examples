@@ -19,7 +19,7 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
 - Install Python 3.8
 - Install Gurobi: https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 - Recommended IDE: https://www.jetbrains.com/pycharm/
-- git pull this repo
+- ```git clone git@github.com:eth-ait/HCI-Optimization-Examples.git```
 - open it as project in pycharm
 - create venv
 - Install required packages: numpy, scipy, gurobipy, matplotlib
@@ -28,6 +28,10 @@ Maintainer: Thomas Langerak (first.last@inf.ethz.ch)
     ```pip install scipy```
     ```pip install -i https://pypi.gurobi.com gurobipy```
     ```pip install matplotlib```
+    
 - it probably asks you to install juypter and run it
-- In gneral to run it press any green arrow you see.
+- In general to run it press any green arrow you see.
+- You are not bound to pycharm, anyway you can run the notebook is fine. Some sources suggest that notebooks can only 
+be run from pycharm if you have the professional edition (this is free for students)
+
 
